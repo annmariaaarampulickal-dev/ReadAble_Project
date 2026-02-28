@@ -1,32 +1,76 @@
 # 📖 ReadAble: Interactive Dyslexia Support Platform
 
-![ReadAble Landing Page](landing-page.png)
+<p align="center">
+  <img src="landing-page.png" alt="ReadAble Landing Page" width="800">
+</p>
 
-**ReadAble** is an accessibility-focused web application engineered to empower learners with dyslexia, dysgraphia, and dyscalculia. By merging specialized typography with interactive "Learning Labs," the platform transforms reading into a controlled, personalized experience that reduces visual stress and cognitive load.
+## 📝 Project Description
+**ReadAble** is an accessibility-focused web application engineered to empower learners with dyslexia, dysgraphia, and dyscalculia. The platform utilizes a 10-step diagnostic assessment to identify specific learning barriers—such as letter-flipping and tracking difficulties—and provides a personalized dashboard with customized tasks to reduce visual stress and improve learning outcomes.
 
 ---
 
-## 🚀 Key Features & Learning Modes
+## 🛠️ Tech Stack
+* **Frontend**: HTML5, CSS3 (Flexible Viewport Units vh/vw)
+* **Logic**: Vanilla JavaScript (ES6+)
+* **Storage**: LocalStorage API for session persistence
+* **Design**: Figma (UI/UX Design)
+* **Deployment**: GitHub Pages (HTTPS)
+
+---
+
+## ✨ Features List
 
 ### 1. The 10-Step Diagnostic Test
-A foundational assessment that identifies specific learning barriers. The results dynamically unlock a personalized learning path.
+A foundational assessment that analyzes user reading patterns and character recognition to unlock personalized learning paths.
 
-### 2. Specialized Learning Labs (Customized Tasks)
-* **⚡ Visual Lab**: Features **Letter Trace** for commonly flipped letters and **Shape Match** for geometric recognition.
-* **📖 Sound Lab**: Includes **Story Telling** at 0.6x speed and a **Rhyme Game** for phonological awareness.
-* **📏 Focus Lab**: Employs a **Digital Reading Ruler** and **Letter Hunt** to train eye-tracking and scanning.
+### 2. Visual Lab (Customized Tasks)
+* **Letter Trace**: Interactive tool to practice correct stroke paths for commonly flipped letters.
+* **Shape Match**: A gamified module matching letters to geometric shadow shapes to improve recognition.
+* **Visual Power Quiz**: Challenges users to identify correct letter orientations under varied conditions.
+
+### 3. Sound Lab (Customized Tasks)
+* **Story Telling**: Users listen to narrated stories at 0.6x speed with glowing text for audio-visual association.
+* **Rhyme Game**: Interactive tasks to find words with similar phonemes (e.g., 'Cat' and 'Hat').
+* **Phonics Quiz**: A module where users select the correct character corresponding to a specific sound.
+
+### 4. Focus Lab (Customized Tasks)
+* **Digital Reading Ruler**: An on-screen mask that isolates one line of text at a time to prevent "line jumping".
+* **Math Dots**: A module for dyscalculia using visual dot patterns to represent numbers for better quantity perception.
+* **Letter Hunt**: A scanning exercise to train horizontal eye movement within text blocks.
+
+### 5. Dyslexia-First UI
+* **OpenDyslexic Integration**: Specialized fonts with heavy bottoms to prevent mental character rotation.
+* **Interactive "Letter Bulge"**: A custom hover effect enlarging individual letters to aid tracking.
 
 ---
 
-## 🛠️ Technical Implementation
+## ⚙️ Installation & Run Commands
 
-* **Dyslexia-First Design**: Implements the **OpenDyslexic** font and a custom **"Letter Bulge"** hover effect to aid tracking.
-* **Responsive Architecture**: Built with **HTML5/CSS3** using **vh/vw** units for layout integrity.
-* **Performance**: Uses **Vanilla JavaScript** and **LocalStorage** to manage user results without a backend.
+### **Installation Commands**
+```bash
+# Clone the repository to your system
+git clone [https://github.com/devae0/ReadAble_Project.git](https://github.com/devae0/ReadAble_Project.git)
+
+# Navigate into the project folder
+cd ReadAble_Project
+```
+---
+
+## 📸 Screenshots
+
+### 1. Landing Page
+![Landing Page](landing-page.png)
+
+### 2. Diagnostic Assessment
+![Diagnostic Test](diagnostic-test.png)
+
+### 3. Learning Labs Dashboard
+![Learning Labs](lab-dashboard.png)
 
 ---
 
-## 👥 Meet the Creators
-**Created with 💙 by Devasangeethi S & Annmaria A Arampulickal**
-*Computer Science Students | Kerala, India*
+## 🎥 Demo Video Link
 
+> [Click here to watch the full project walkthrough](https://drive.google.com/drive/folders/1AMNjbwtu9Mgiap17eWIGUXXSiJpzn9Fk?usp=drive_link)
+
+---

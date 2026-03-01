@@ -1,4 +1,4 @@
-# ReadAble 🎯
+### ReadAble 
 > **Empowering Every Learner, One Character at a Time.**
 
 ![TinkHerHack Banner](img.png)
@@ -65,6 +65,8 @@ cd ReadAble
 ### Run Commands
 Simply locate the index.html file in your project folder and open it directly in any modern web browser (Chrome, Edge, or Firefox).
 
+---
+
 ## Project Documentation
 ### Screenshots
 ![Landing Page](landing-page.png)
@@ -84,5 +86,11 @@ You can watch the full walkthrough of **ReadAble** and its features here:
 * **Devasangeethi S**:UI/UX Design (Figma), Landing Page development, Diagnostic Engine assessment logic, Feature content development, and Project Documentation.
 *  **Annmaria A Arampulickal**: Game development for each Lab, interactive learning mechanics, and game-specific UI implementation.
 
-### License
+---
+
+##  License
+This project is licensed under the **MIT** License - see the [**LICENSE**](LICENSE) file for details.
+
+---
+Made with ❤️ at TinkerHub
 

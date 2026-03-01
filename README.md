@@ -55,8 +55,8 @@ How ReadAble Guides the Learner:
 ## Implementation
 ### Installation
 ```bash
-git clone [https://github.com/devae0/ReadAble_Project.git](https://github.com/devae0/ReadAble_Project.git)
-cd ReadAble_Project
+git clone https://github.com/devae0/ReadAble_Project.git
+
 ```
 ### Navigate to the Directory
 ```bash
